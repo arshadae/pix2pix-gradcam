@@ -233,4 +233,4 @@ This ensures generated images activate the classifier similarly to real images.
 
 
 # Acknowledgements
-Our code is developed based on [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) and [contrastive-unpaired-translation](https://github.com/taesungp/contrastive-unpaired-translation). We also thank [pytorch-fid](https://github.com/mseitzer/pytorch-fid) for FID computation.
+We borrowed heavily from [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) and [contrastive-unpaired-translation](https://github.com/taesungp/contrastive-unpaired-translation) to develop our codebase. We also thank [pytorch-fid](https://github.com/mseitzer/pytorch-fid) for FID computation.
