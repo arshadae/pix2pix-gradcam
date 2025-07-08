@@ -91,8 +91,8 @@ This work presents a robust framework for enhancing the **realism and semantic q
 If you use this work, please cite:
 
 @article{arshad2025paper,
-title={Enhancing Realism of Synthetic MWIR Images with Semantically Guided GANs: A CUT and Grad-CAM Feedback Framework},
-author={Muhammad Awais Arshad, Hyochoong Bang, ...},
+title={Explainability-guided GAN: A GradCAM Feedback Framework for Class-Attentive MWIR Image Translation},
+author={Muhammad Awais Arshad, Hyochoong Bang},
 journal={Machine Vision and Applications},
 year={2025}
 }
@@ -230,3 +230,7 @@ This ensures generated images activate the classifier similarly to real images.
 - Reconstruction loss (e.g., L1 between generated & target image)
 
 - Grad-CAM loss (new) to align important regions
+
+
+# Acknowledgements
+Our code is developed based on [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) and [contrastive-unpaired-translation](https://github.com/taesungp/contrastive-unpaired-translation). We also thank [pytorch-fid](https://github.com/mseitzer/pytorch-fid) for FID computation.
