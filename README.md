@@ -1,6 +1,48 @@
 Authored by by Arshad MA
 
-# Enhancing Realism of Synthetic MWIR Images with Semantically Guided GANs: A CUT and Grad-CAM Feedback Framework
+# Explainability-guided GAN: A GradCAM Feedback Framework for Class-Attentive MWIR Image Translation
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+## Table of Contents
+- [Overview](#overview)
+- [Pipeline Overview](#pipeline-overview)
+- [Training Details](#training-details)
+- [Evaluation Metrics](#evaluation-metrics)
+- [Results](#results)
+- [Conclusion](#conclusion)
+- [Citation](#citation)
+- [Contact](#contact)
+- [Quick Start](#quick-start)
+- [Train and test the CUT Model](#train-and-test-the-cut-model)
+- [How to integrate Grad-CAM in Pix2Pix training?](#how-to-integrate-grad-cam-in-pix2pix-training)
+- [Acknowledgements](#acknowledgements)
+
+---
+
+## Quick Start
+
+1. **Clone the repository:**
+   ```bash
+   git clone <repo-url>
+   cd pix2pix-gradcam
+   ```
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Prepare datasets:**
+   - See [Train and test the CUT Model](#train-and-test-the-cut-model) and dataset structure in the README below.
+4. **Train the model:**
+   ```bash
+   bash scripts/train_cut.sh
+   ```
+5. **Test the model:**
+   ```bash
+   bash scripts/test_cut.sh
+   ```
+
+---
 
 ## Overview
 
